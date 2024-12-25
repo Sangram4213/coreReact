@@ -1,0 +1,11 @@
+{
+  "name": "namstejavascript",
+  "version": "1.0.0",
+  "description": "done",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC"
+}
