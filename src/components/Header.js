@@ -1,29 +1,38 @@
-import LOGO_URL from '../utils/constants';
+import { useState } from "react";
+import { LOGO_URL } from "../utils/constants";
+import { Link } from "react-router";
 
 const Title = () => (
-    <a href="/">
-      <img
-        className="logo"
-        src={LOGO_URL}
-        alt="logo"
-      />
-    </a>
-  );
+  <a href="/">
+    <img className="logo" src={LOGO_URL} alt="logo" />
+  </a>
+);
 
 const Header = () => {
-    return (
-      <div className="header">
-        <Title />
-        <div className="nav-items">
-          <ul>
-            <li>Home</li>
-            <li>About</li>
-            <li>Contact</li>
-            <li>Cart</li>
-          </ul>
-        </div>
-      </div>
-    );
-  };
+  const [isLogIn, setIsLogIn] = useState(false);
 
-  export default Header;
+  return (
+    <div className="header">
+      <Title />
+      <div className="nav-items">
+        <ul>
+          <Link to="/">
+            <li>Home</li>
+          </Link>
+          <Link to="/about">
+            <li>About</li>
+          </Link>
+          <Link to='/contact'><li>Contact</li></Link>
+          <li>Cart</li>
+        </ul>
+      </div>
+      {isLogIn ? (
+        <button onClick={() => setIsLogIn(false)}>LogIn</button>
+      ) : (
+        <button onClick={() => setIsLogIn(true)}>LogOut</button>
+      )}
+    </div>
+  );
+};
+
+export default Header;

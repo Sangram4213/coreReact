@@ -1,9 +1,10 @@
-const RestrauruntCard = ({ itemName, image, rating }) => {
+
+const RestrauruntCard = ({ brandName, brandImage, location}) => {
     return (
       <div className="card">
-        <img src={image} alt="Burger Image" />
-        <h2>{itemName}</h2>
-        <h4>{rating}</h4>
+        <h2>{brandName}</h2>
+        <p>{location?.locationName}</p>
+        <img src={brandImage} alt="Food Image" />
       </div>
     );
   };

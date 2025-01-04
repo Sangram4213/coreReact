@@ -1,23 +1,73 @@
-.header{
+/* General styling for the header */
+.header {
     display: flex;
-    justify-content: space-between ;
-    margin: 10px;
-    border:1px solid black;
-}
-.nav-items > ul{
-    list-style-type: none;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8f9fa; /* Light grey background */
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd; /* Subtle border at the bottom */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  }
+  
+  /* Logo styling */
+  .logo {
+    height: 50px;
+    cursor: pointer;
+  }
+  
+  /* Navigation items container */
+  .nav-items ul {
     display: flex;
-}
-
-.nav-items > ul > li {
-    padding: 10px;
-}
-
-.logo{
-    width:100px;
-}
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Individual navigation links */
+  .nav-items ul li {
+    margin: 0 15px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  /* Styling for links */
+  .nav-items ul li a {
+    text-decoration: none; /* Remove underline */
+    color: #333; /* Dark grey color */
+    border-bottom: 2px solid transparent; /* Add a border for hover effect */
+    transition: border-color 0.3s ease, color 0.3s ease;
+  }
+  
+  /* Hover effect for links */
+  .nav-items ul li a:hover {
+    color: #007bff; /* Blue color on hover */
+    border-bottom: 2px solid #007bff; /* Add blue line below on hover */
+  }
+  
+  /* Button styling */
+  button {
+    padding: 8px 15px;
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    background-color: #007bff; /* Blue background */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Button hover effect */
+  button:hover {
+    background-color: #0056b3; /* Darker blue */
+  }
+  
 
 .card{
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Inherit text color */
     width:200px;
     border: 1px solid black;
     padding:10px;
@@ -36,4 +86,57 @@
 .filter-btn{
     margin:10px;
     cursor:pointer;
+}
+
+.shimmer-card{
+    width:200px;
+    height:200px;
+    background:lightgrey;
+    margin:20px;
+}
+
+/* Parent container for menu cards */
+.menu-container {
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping to the next row if space runs out */
+    gap: 20px; /* Add spacing between cards */
+    justify-content: space-around; /* Center the cards with spacing */
+    margin: 20px;
+}
+
+/* Each menu card */
+.menu-card {
+    display: flex;
+    flex-direction: column; /* Stack content vertically inside the card */
+    width: 200px;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    box-sizing: border-box; /* Include padding and border in width/height */
+    align-items: center; /* Center content inside the card */
+    overflow: hidden; /* Prevent content overflow */
+    border-radius: 5px; /* Optional: Add rounded corners */
+    background-color: #f9f9f9; /* Optional: Add a light background */
+}
+
+/* Image inside the card */
+.menu-card img {
+    width: 100%; /* Take full width of the card */
+    height: 150px; /* Set a fixed height for consistency */
+    object-fit: cover; /* Maintain aspect ratio, fill container */
+    border-radius: 5px;
+}
+
+/* Text styling */
+.menu-card h1, 
+.menu-card h2 {
+    margin: 10px 0;
+    font-size: 16px;
+    text-align: center; /* Center-align text */
+}
+
+
+.user-card{
+    padding:10px;
+    border: 1px solid black;
 }
