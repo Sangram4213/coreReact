@@ -3,7 +3,6 @@ import React from "react";
 class UserClass extends React.Component{
     constructor(props){
         super(props);
-        console.log("Contructor");
         this.state={
             userInfo:{
                 name:"",

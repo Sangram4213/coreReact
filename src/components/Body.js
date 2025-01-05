@@ -2,6 +2,7 @@ import { Link } from "react-router";
 import RestrauruntCard from "./RestrauruntCard";
 import Shimmer from "./Shimmer";
 import { useEffect, useState } from "react";
+import useOnlineStatus from "../utils/useOnlineStatus";
 
 function filterData(searchInput, allRestuarants) {
   return allRestuarants?.filter((res) =>
@@ -34,20 +35,24 @@ const Body = () => {
     }
   }
 
+  const onlineStatus = useOnlineStatus();
+
+  if(onlineStatus===false) return <h1>Look like you're offline!! Please check your internet connection;</h1>
+
   return allRestuarants.length === 0 ? (
     <Shimmer />
   ) : (
     <div className="body">
-      <div className="search-container">
+      <div className="m-4 p-4">
         <input
           type="text"
-          className="search-input"
+          className="border border-solid border-black"
           placeholder="Search"
           value={searchInput}
           onChange={(e) => setSearchInput(e.target.value)}
         />
         <button
-          className="search-btn"
+          className="px-4 py-2  bg-green-100 m-4 rounded-lg"
           onClick={() => {
             const filter = filterData(searchInput, allRestuarants);
             setFilterRestaurantList(filter);
@@ -60,7 +65,7 @@ const Body = () => {
               setRestaurantList(filterData);
             }}>Top Restraurunt</button> */}
       </div>
-      <div className="restaurant-list">
+      <div className="flex flex-wrap">
         {filterRestaurantList?.length === 0 ? (
           <h1>No Restaurants</h1>
         ) : (

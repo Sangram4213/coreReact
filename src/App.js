@@ -1,19 +1,23 @@
-import React from "react";
+import React, { lazy, Suspense } from "react";
 import ReactDOM from "react-dom/client";
 import Header from "./components/Header";
 import Body from "./components/Body";
 import Footer from "./components/Footer";
-import { createBrowserRouter, RouterProvider,Outlet } from "react-router";
+import { createBrowserRouter, RouterProvider, Outlet } from "react-router";
 import About from "./components/About";
 import Error from "./components/Error";
 import Contact from "./components/Contact";
 import RestaurantMenu from "./components/RestaurantMenu";
+import Shimmer from "./components/Shimmer";
+// import Grocery from "./components/Grocery";
+
+const Grocery = lazy(() => import("./components/Grocery"));
 
 const AppLayout = () => {
   return (
     <React.Fragment>
       <Header />
-      <Outlet/> 
+      <Outlet />
       <Footer />
     </React.Fragment>
   );
@@ -21,29 +25,37 @@ const AppLayout = () => {
 
 const appRouter = createBrowserRouter([
   {
-    path: '/',
+    path: "/",
     element: <AppLayout />,
-    errorElement:<Error/>,
-  children:[
-    {
-      path:'/',
-      element:<Body/>
-    },
-    {
-    path: '/about',
-    element: <About />,
-    errorElement:<Error/>
+    errorElement: <Error />,
+    children: [
+      {
+        path: "/",
+        element: <Body />,
+      },
+      {
+        path: "/about",
+        element: <About />,
+        errorElement: <Error />,
+      },
+      {
+        path: "/contact",
+        element: <Contact />,
+      },
+      {
+        path: "/grocery",
+        element: (
+          <Suspense fallback={<h1>Loading....</h1>}>
+            <Grocery />
+          </Suspense>
+        ),
+      },
+      {
+        path: "/restaurant/:resId",
+        element: <RestaurantMenu />,
+      },
+    ],
   },
-  {
-    path:'/contact',
-    element:<Contact/>
-  },
-  {
-    path:'/restaurant/:resId',
-    element:<RestaurantMenu/>
-  }
-],
-}
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById("root"));

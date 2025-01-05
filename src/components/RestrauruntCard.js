@@ -1,10 +1,10 @@
 
 const RestrauruntCard = ({ brandName, brandImage, location}) => {
     return (
-      <div className="card">
-        <h2>{brandName}</h2>
+      <div className="m-4 p-4 w-[250px] bg-gray-100 rounded-lg">
+        <h2 className="font-bold py-2 text-lg">{brandName}</h2>
         <p>{location?.locationName}</p>
-        <img src={brandImage} alt="Food Image" />
+        <img className="rounded-lg" src={brandImage} alt="Food Image" />
       </div>
     );
   };
