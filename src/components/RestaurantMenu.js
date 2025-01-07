@@ -8,17 +8,17 @@ const RestaurantMenu = () => {
 
   const restaurantInfo = useRestaurantMenu(resId);
   const restaurantName = restaurantInfo?.[0]?.brandName;
-
+  
   return !restaurantInfo ? (
     <h1>RestaurantMenu is not available</h1>
   ) : (
     <div>
-      <h1 className="restaurant-name">{restaurantName}</h1>
+      <h1 className="text-center my-6 text-2xl font-bold">{restaurantName}</h1>
 
       <div className="flex flex-wrap">
         {restaurantInfo.map((restaurantMenu) => (
           <MenuCard {...restaurantMenu} key={restaurantMenu._id} />
-        ))}
+        ))}      
       </div>
     </div>
   );

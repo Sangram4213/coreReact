@@ -1,7 +1,9 @@
-import { useState } from "react";
+import { useContext, useState } from "react";
 import { LOGO_URL } from "../utils/constants";
 import { Link } from "react-router";
 import useOnlineStatus from "../utils/useOnlineStatus";
+import UserContext from "../utils/userContext";
+import { useSelector } from "react-redux";
 
 const Title = () => (
   <a href="/">
@@ -11,6 +13,10 @@ const Title = () => (
 
 const Header = () => {
   const [isLogIn, setIsLogIn] = useState(false);
+
+  const { loggedInUser } = useContext(UserContext);
+
+  const cartItems = useSelector((store) => store.cart.items);
 
   const onlineStatus = useOnlineStatus();
 
@@ -34,12 +40,18 @@ const Header = () => {
           <Link to="/grocery">
             <li className="px-4">Grocery</li>
           </Link>
-          <li className="px-4">Cart</li>
+          <Link to="/cart">
+            <li className="px-4 font-bold text-xl">
+              Cart- ({cartItems.length} items)
+            </li>
+          </Link>
           {isLogIn ? (
             <button onClick={() => setIsLogIn(false)}>LogIn</button>
           ) : (
             <button onClick={() => setIsLogIn(true)}>LogOut</button>
           )}
+
+          <li className="px-4 font-bold">{loggedInUser}</li>
         </ul>
       </div>
     </div>

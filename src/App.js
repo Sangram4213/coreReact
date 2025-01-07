@@ -2,24 +2,26 @@ import React, { lazy, Suspense } from "react";
 import ReactDOM from "react-dom/client";
 import Header from "./components/Header";
 import Body from "./components/Body";
+import Cart from "./components/Cart";
 import Footer from "./components/Footer";
 import { createBrowserRouter, RouterProvider, Outlet } from "react-router";
 import About from "./components/About";
 import Error from "./components/Error";
 import Contact from "./components/Contact";
 import RestaurantMenu from "./components/RestaurantMenu";
-import Shimmer from "./components/Shimmer";
+import {Provider} from 'react-redux';
+import appStore from "./utils/appStore";
 // import Grocery from "./components/Grocery";
 
 const Grocery = lazy(() => import("./components/Grocery"));
 
 const AppLayout = () => {
   return (
-    <React.Fragment>
+    <Provider store={appStore}>
       <Header />
       <Outlet />
       <Footer />
-    </React.Fragment>
+    </Provider>
   );
 };
 
@@ -54,6 +56,10 @@ const appRouter = createBrowserRouter([
         path: "/restaurant/:resId",
         element: <RestaurantMenu />,
       },
+      {
+        path:'/cart',
+        element:<Cart/>
+      }
     ],
   },
 ]);

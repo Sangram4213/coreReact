@@ -1,5 +1,5 @@
 import { Link } from "react-router";
-import RestrauruntCard from "./RestrauruntCard";
+import RestrauruntCard, { withPrioriy } from "./RestrauruntCard";
 import Shimmer from "./Shimmer";
 import { useEffect, useState } from "react";
 import useOnlineStatus from "../utils/useOnlineStatus";
@@ -17,6 +17,8 @@ const Body = () => {
   const [allRestuarants, setAllRestaurants] = useState([]);
   const [filterRestaurantList, setFilterRestaurantList] = useState([]);
   const [searchInput, setSearchInput] = useState("");
+
+  const RestaurantCardPriority = withPrioriy(RestrauruntCard);
 
   useEffect(() => {
     getRestaurant();
@@ -37,7 +39,10 @@ const Body = () => {
 
   const onlineStatus = useOnlineStatus();
 
-  if(onlineStatus===false) return <h1>Look like you're offline!! Please check your internet connection;</h1>
+  if (onlineStatus === false)
+    return (
+      <h1>Look like you're offline!! Please check your internet connection;</h1>
+    );
 
   return allRestuarants.length === 0 ? (
     <Shimmer />
@@ -71,7 +76,11 @@ const Body = () => {
         ) : (
           filterRestaurantList.map((res) => (
             <Link to={"/restaurant/" + res._id} key={res?._id}>
-              <RestrauruntCard {...res} />
+              {res?.priority > 3 ? (
+                <RestaurantCardPriority {...res} />
+              ) : (
+                <RestrauruntCard {...res} />
+              )}
             </Link>
           ))
         )}
