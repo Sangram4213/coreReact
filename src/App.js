@@ -4,7 +4,7 @@ import Header from "./components/Header";
 import Body from "./components/Body";
 import Cart from "./components/Cart";
 import Footer from "./components/Footer";
-import { createBrowserRouter, RouterProvider, Outlet } from "react-router";
+import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
 import About from "./components/About";
 import Error from "./components/Error";
 import Contact from "./components/Contact";

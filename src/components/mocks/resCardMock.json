@@ -1,0 +1,14 @@
+{
+    "_id": "63ef11d1c510f5ceb2e8968a",
+    "brandName": "THE FISHERMANS WHARF",
+    "brandImage": "https://jmr-prod-01.s3.amazonaws.com/fisher  man logo.jpg",
+    "brandDescription": "THE FISHERMANS WHARF\n",
+    "location": {
+        "_id": "63e4cd4d15312d904a276ad6",
+        "locationName": "GOA"
+    },
+    "priority": "5",
+    "brandSlug": "the-fishermans-wharf",
+    "tagline": "",
+    "brandPopularityRating": ""
+}

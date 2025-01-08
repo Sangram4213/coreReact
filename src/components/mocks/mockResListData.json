@@ -1,0 +1,219 @@
+{
+    "success": true,
+    "error": [],
+    "data": [
+    {
+    "_id": "626049e92ae3c91faaa759fb",
+    "metaLogo": "",
+    "description": "",
+    "type": "brand",
+    "isPublic": true,
+    "isActive": true,
+    "isDeleted": false,
+    "name": "our-partners",
+    "priority": 0,
+    "brands": [
+    {
+    "_id": "62460df89092073b54ec9a2c",
+    "brandName": "Paradise",
+    "brandImage": "https://jmr-prod-01.s3.amazonaws.com/paradise (1).jpg",
+    "brandDescription": "The legendry brand from Hyderabad serves variety of Andhra inspired food but is mainly popular for it's biryani.",
+    "location": {
+    "_id": "62453a925618d41d5c410d17",
+    "locationName": "Hyderabad"
+    },
+    "priority": "0",
+    "brandSlug": "paradise",
+    "tagline": "",
+    "brandPopularityRating": ""
+    },
+    {
+    "_id": "62460de79092073b54ec978c",
+    "brandName": "Sita Ram Diwan Chand",
+    "brandImage": "https://jmr-prod-01.s3.amazonaws.com/sita-ram-chole.jpg",
+    "brandDescription": "There are many joints that serve chole bhature , but one that wins hands down in the capital, is the one served at Sita Ram Diwan Chand at Paharganj. These melt-in-the-mouth choles are mildly spiced. One can taste the myriad spices which explode in the mouth, unlike in other joints, where one only get's to taste green chillies and ginger.  Combination of the garam masala which renders it's  unique taste, is a play of spices, which is grounded in house. The same recipe, without any tweaks, is being followed day in and day out, traditionalism coupled with no compromise on quality, is the secret behind their success. ",
+    "location": {
+    "_id": "62453a925618d41d5c410d0c",
+    "locationName": "Delhi"
+    },
+    "priority": "0",
+    "brandSlug": "sita-ram-diwan-chand-c3X5JMN6jyvC",
+    "tagline": "",
+    "brandPopularityRating": ""
+    },
+    {
+    "_id": "62460e009092073b54ec9b6c",
+    "brandName": "Rawat",
+    "brandImage": "https://jmr-prod-01.s3.amazonaws.com/Rawat Misthan Bhandar.jpg",
+    "brandDescription": "Famosu for Pyaz Kachori",
+    "location": {
+    "_id": "62453a925618d41d5c410d0d",
+    "locationName": "Jaipur"
+    },
+    "priority": "1",
+    "brandSlug": "rawat",
+    "tagline": "",
+    "brandPopularityRating": ""
+    },
+    {
+    "_id": "62460de69092073b54ec9744",
+    "brandName": "Moti Mahal",
+    "brandImage": "https://jmr-prod-01.s3.amazonaws.com/moti-mahal.jpg1200x1200 (1).jpg",
+    "brandDescription": "This is a journey of Mr. Kundan Lal Gujral, the man behind the recognition & success of Moti Mahal group in the global hospitality industry. The popularity of Moti Mahal group is basically due to the unparalleled taste and innovation which brought up the traditional tandoor cuisine to bake the chicken and transformed that into a royal food culture but the taste remained undiminished for all the decades.",
+    "location": {
+    "_id": "62453a925618d41d5c410d0c",
+    "locationName": "Delhi"
+    },
+    "priority": "1",
+    "brandSlug": "moti-mahal",
+    "tagline": "",
+    "brandPopularityRating": ""
+    },
+    {
+    "_id": "62460e009092073b54ec9b64",
+    "brandName": "Kesar",
+    "brandImage": "https://jmr-prod-01.s3.amazonaws.com/KESAR (2).jpg",
+    "brandDescription": "Sweet shop",
+    "location": {
+    "_id": "62453a925618d41d5c410d0d",
+    "locationName": "Jaipur"
+    },
+    "priority": "1",
+    "brandSlug": "kesar",
+    "tagline": "",
+    "brandPopularityRating": ""
+    },
+    {
+    "_id": "62460de59092073b54ec971c",
+    "brandName": "Sri Krishna Sweets",
+    "brandImage": "https://jmr-prod-01.s3.amazonaws.com/Sri Krishna logo 500x500.png",
+    "brandDescription": "Sri Krishna Sweets is a pioneer in traditional sweets and savouries, with an uncompromising commitment to high quality and unmatched taste. The sumptuous sweets are part of an ever-growing spectrum of pure ghee sweets, milk sweets and syrupy delicacies.The brand has become part of the local flavour in all of the countries it is present in, as well as in a few others it isn't.",
+    "location": {
+    "_id": "62453a925618d41d5c410d0f",
+    "locationName": "Bengaluru"
+    },
+    "priority": "1",
+    "brandSlug": "sri-krishna-sweets",
+    "tagline": "",
+    "brandPopularityRating": ""
+    },
+    {
+    "_id": "62460e3a9092073b54eca462",
+    "brandName": "Britannia and Co",
+    "brandImage": "https://jmr-prod-01.s3.amazonaws.com/britannia and co..jpg",
+    "brandDescription": "Nostalgic Parsi Restaurant\n",
+    "location": {
+    "_id": "62453a925618d41d5c410d10",
+    "locationName": "Mumbai"
+    },
+    "priority": "1",
+    "brandSlug": "britannia-and-co",
+    "tagline": "",
+    "brandPopularityRating": ""
+    },
+    {
+    "_id": "62460e2b9092073b54eca227",
+    "brandName": "Tunday Kababi",
+    "brandImage": "https://jmr-prod-01.s3.amazonaws.com/tunday kebabi.jpg",
+    "brandDescription": "Legendry Kebab Shop",
+    "location": {
+    "_id": "62453a925618d41d5c410d19",
+    "locationName": "Lucknow"
+    },
+    "priority": "1",
+    "brandSlug": "tunday-kababi",
+    "tagline": "",
+    "brandPopularityRating": ""
+    },
+    {
+    "_id": "62460e319092073b54eca307",
+    "brandName": "The Leopold Cafe and Bar",
+    "brandImage": "https://jmr-prod-01.s3.amazonaws.com/leopord cafe.jpg",
+    "brandDescription": "Legendary café",
+    "location": {
+    "_id": "62453a925618d41d5c410d10",
+    "locationName": "Mumbai"
+    },
+    "priority": "1",
+    "brandSlug": "the-leopold-cafe-and-bar",
+    "tagline": "",
+    "brandPopularityRating": ""
+    },
+    {
+    "_id": "62460ddb9092073b54ec95ac",
+    "brandName": "Kesar Da Dhaba",
+    "brandImage": "https://jmr-prod-01.s3.amazonaws.com/k new.jpg",
+    "brandDescription": "One of the most popular North Indian food serving restaurant in Amritsar",
+    "location": {
+    "_id": "6245ffc5e8bea438142f40fa",
+    "locationName": "Amritsar"
+    },
+    "priority": "3",
+    "brandSlug": "kesar-da-dhaba-VO4a48GkM8wE",
+    "tagline": "",
+    "brandPopularityRating": ""
+    },
+    {
+    "_id": "62460e0f9092073b54ec9daf",
+    "brandName": "Flurys",
+    "brandImage": "https://jmr-prod-01.s3.amazonaws.com/flurys.jpg",
+    "brandDescription": "Nostalgic Bakery",
+    "location": {
+    "_id": "62453a925618d41d5c410d0e",
+    "locationName": "Kolkata"
+    },
+    "priority": "3",
+    "brandSlug": "flurys",
+    "tagline": "",
+    "brandPopularityRating": ""
+    },
+    {
+    "_id": "63ef11d1c510f5ceb2e8968a",
+    "brandName": "THE FISHERMANS WHARF",
+    "brandImage": "https://jmr-prod-01.s3.amazonaws.com/fisher  man logo.jpg",
+    "brandDescription": "THE FISHERMANS WHARF\n",
+    "location": {
+    "_id": "63e4cd4d15312d904a276ad6",
+    "locationName": "GOA"
+    },
+    "priority": "5",
+    "brandSlug": "the-fishermans-wharf",
+    "tagline": "",
+    "brandPopularityRating": ""
+    },
+    {
+    "_id": "62460e069092073b54ec9c67",
+    "brandName": "Murugan Idli Shop",
+    "brandImage": "https://jmr-prod-01.s3.amazonaws.com/murugan idli.jpg",
+    "brandDescription": "Restaurant serving South Indian fastfood",
+    "location": {
+    "_id": "62453a925618d41d5c410d16",
+    "locationName": "Chennai"
+    },
+    "priority": "7",
+    "brandSlug": "murugan-idli-shop",
+    "tagline": "",
+    "brandPopularityRating": ""
+    },
+    {
+    "_id": "62460de39092073b54ec96ec",
+    "brandName": "Meghana Biryani",
+    "brandImage": "https://jmr-prod-01.s3.amazonaws.com/meghna foods.jpg",
+    "brandDescription": "Andhra Restaurant",
+    "location": {
+    "_id": "62453a925618d41d5c410d0f",
+    "locationName": "Bengaluru"
+    },
+    "priority": "9",
+    "brandSlug": "meghana-biryani",
+    "tagline": "",
+    "brandPopularityRating": ""
+    }
+    ],
+    "items": []
+    }
+    ],
+    "message": [
+    "dashboard data fetched"
+    ]
+    }

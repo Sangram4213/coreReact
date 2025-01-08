@@ -1,8 +1,8 @@
 
-const RestrauruntCard = ({ brandName, brandImage, location}) => {
-  
+const RestrauruntCard = (props) => {
+  const {brandImage,brandName,location}= props;
     return (
-      <div className="m-4 p-4 w-[250px] bg-gray-100 rounded-lg">
+      <div data-testid="res-card" className="m-4 p-4 w-[250px] bg-gray-100 rounded-lg">
         <img className="rounded-lg" src={brandImage} alt="Food Image" />
         <h2 className="font-bold py-2 text-lg">{brandName}</h2>
         <p>{location?.locationName}</p>

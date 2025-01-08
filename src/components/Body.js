@@ -1,4 +1,4 @@
-import { Link } from "react-router";
+import { Link } from "react-router-dom";
 import RestrauruntCard, { withPrioriy } from "./RestrauruntCard";
 import Shimmer from "./Shimmer";
 import { useEffect, useState } from "react";
@@ -51,6 +51,7 @@ const Body = () => {
       <div className="m-4 p-4">
         <input
           type="text"
+          data-testid="search-input"
           className="border border-solid border-black"
           placeholder="Search"
           value={searchInput}

@@ -9,7 +9,6 @@ const MenuCard = (props) => {
      //Dispathch an Action
      dispatch(addItem(props));
   }
-  console.log({a:props});
   return (
     <>
       <div className="m-4 p-4 w-[250px] bg-gray-100" onClick={handleAddItem}>

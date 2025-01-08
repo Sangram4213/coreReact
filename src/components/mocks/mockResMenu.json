@@ -1,0 +1,98 @@
+{
+    "success": true,
+    "error": [],
+    "data": {
+    "items": [
+    {
+    "_id": "63f701a5972a3820e5aea17c",
+    "itemName": "Extra Choley",
+    "itemType": "veg",
+    "filter": [
+    "veg"
+    ],
+    "shortDescription": "A popular Punjabi dish where chickpeas are simmered in a spicy & tangy gravy.",
+    "fullDescription": "A popular Punjabi dish where chickpeas are simmered in a spicy & tangy gravy.",
+    "productImages": [
+    "https://jmr-prod-01.s3.amazonaws.com/chana sita ram only.png"
+    ],
+    "UOM": "2|Plate",
+    "stockQuantity": 10000,
+    "ratings": "4.9",
+    "priority": "1",
+    "ingredient": "Chickpeas, Indian Spices.",
+    "handlingDetail": "Street Food|All Street food products are maintained at. 5-8 degree C (for Interstate Products). We neither Freeze nor add any preservatives. Please refrigerate if not consumed immediately. Best results if heated on a pan with a little oil, before consumption.",
+    "disclaimer": "The product images shown are for illustration purposes only and may not be an exact representation of the product. The manufacturer reserves the right to change the product images and specifications at any time without notice.",
+    "brand": "Sita Ram Diwan Chand",
+    "slug": "extra-choley",
+    "expressDel": false,
+    "aboutSeller": "There are many joints that serve chole bhature , but one that wins hands down in the capital, is the one served at Sita Ram Diwan Chand at Paharganj. These melt-in-the-mouth choles are mildly spiced. One can taste the myriad spices which explode in the mouth, unlike in other joints, where one only get's to taste green chillies and ginger.  Combination of the garam masala which renders it's  unique taste, is a play of spices, which is grounded in house. The same recipe, without any tweaks, is being followed day in and day out, traditionalism coupled with no compromise on quality, is the secret behind their success. ",
+    "brandId": "62460de79092073b54ec978c",
+    "brandName": "Sita Ram Diwan Chand",
+    "brandCity": "Delhi",
+    "brandSlug": "sita-ram-diwan-chand-c3X5JMN6jyvC",
+    "sellingPrice": 379
+    },
+    {
+    "_id": "62fc84d93d81a85c913b1343",
+    "itemName": "Chole Bhature (4 Pieces)",
+    "itemType": "veg",
+    "filter": [
+    "veg"
+    ],
+    "shortDescription": "A deep-fried, puffy bread (Bhature), made with all purpose flour is served with chick peas (chole) curry cooked in a spicy onion, tomato curry and finally garnished with coriander. It is a popular North Indian dish.",
+    "fullDescription": "A deep-fried, puffy bread (Bhature), made with all purpose flour is served with chick peas (chole) curry cooked in a spicy onion, tomato curry and finally garnished with coriander. It is a popular North Indian dish.",
+    "productImages": [
+    "https://jmr-prod-01.s3.amazonaws.com/sitaram chole bhature 1000 x 1000.png"
+    ],
+    "UOM": "|Pack of 2",
+    "stockQuantity": 10000,
+    "ratings": "4.9",
+    "priority": "5",
+    "ingredient": "Spicy onion, tomato curry, Indian Spices, wheat flour.",
+    "handlingDetail": "Street Food|All Street food products are maintained at. 5-8 degree C (for Interstate Products). We neither Freeze nor add any preservatives. Please refrigerate if not consumed immediately. Best results if heated on a pan with a little oil, before consumption.",
+    "disclaimer": "The product images shown are for illustration purposes only and may not be an exact representation of the product. The manufacturer reserves the right to change the product images and specifications at any time without notice.",
+    "brand": "Sita Ram Diwan Chand",
+    "slug": "chole-bhature-4-pieces",
+    "expressDel": false,
+    "aboutSeller": "There are many joints that serve chole bhature , but one that wins hands down in the capital, is the one served at Sita Ram Diwan Chand at Paharganj. These melt-in-the-mouth choles are mildly spiced. One can taste the myriad spices which explode in the mouth, unlike in other joints, where one only get's to taste green chillies and ginger.  Combination of the garam masala which renders it's  unique taste, is a play of spices, which is grounded in house. The same recipe, without any tweaks, is being followed day in and day out, traditionalism coupled with no compromise on quality, is the secret behind their success. ",
+    "brandId": "62460de79092073b54ec978c",
+    "brandName": "Sita Ram Diwan Chand",
+    "brandCity": "Delhi",
+    "brandSlug": "sita-ram-diwan-chand-c3X5JMN6jyvC",
+    "sellingPrice": 479
+    },
+    {
+    "_id": "62fc871e6789f25c8bce88bc",
+    "itemName": "Chole Bhature (8 Pieces)",
+    "itemType": "veg",
+    "filter": [
+    "veg"
+    ],
+    "shortDescription": "Chole bhature is a popular Punjabi dish. Bhature is a a deep-fried, puffy bread; made with all purpose flour which is served with chick peas (chole) cooked in a spicy onion, tomato curry and finally garnished with coriander.",
+    "fullDescription": "Chole bhature is a popular Punjabi dish. Bhature is a a deep-fried, puffy bread; made with all purpose flour which is served with chick peas (chole) cooked in a spicy onion, tomato curry and finally garnished with coriander.",
+    "productImages": [
+    "https://jmr-prod-01.s3.amazonaws.com/body.png"
+    ],
+    "UOM": "|Pack of 4",
+    "stockQuantity": 10000,
+    "ratings": "4.9",
+    "priority": "14",
+    "ingredient": "Chole, Indian Spices, Onion and Tomato Gravy, Wheat Flour.",
+    "handlingDetail": "Street Food|All Street food products are maintained at. 5-8 degree C (for Interstate Products). We neither Freeze nor add any preservatives. Please refrigerate if not consumed immediately. Best results if heated on a pan with a little oil, before consumption.",
+    "disclaimer": "The product images shown are for illustration purposes only and may not be an exact representation of the product. The manufacturer reserves the right to change the product images and specifications at any time without notice.",
+    "brand": "Sita Ram Diwan Chand",
+    "slug": "chole-bhature-8-pieces",
+    "expressDel": false,
+    "aboutSeller": "There are many joints that serve chole bhature , but one that wins hands down in the capital, is the one served at Sita Ram Diwan Chand at Paharganj. These melt-in-the-mouth choles are mildly spiced. One can taste the myriad spices which explode in the mouth, unlike in other joints, where one only get's to taste green chillies and ginger.  Combination of the garam masala which renders it's  unique taste, is a play of spices, which is grounded in house. The same recipe, without any tweaks, is being followed day in and day out, traditionalism coupled with no compromise on quality, is the secret behind their success. ",
+    "brandId": "62460de79092073b54ec978c",
+    "brandName": "Sita Ram Diwan Chand",
+    "brandCity": "Delhi",
+    "brandSlug": "sita-ram-diwan-chand-c3X5JMN6jyvC",
+    "sellingPrice": 679
+    }
+    ]
+    },
+    "message": [
+    "Items fetched"
+    ]
+    }
